@@ -1,0 +1,39 @@
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 15px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 10%;
+  border-radius: 5px;
+}
+
+.card h3 {
+  font-size: 1.6rem;
+  color: #333;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #777;
+}
+
+.card .price {
+  font-size: 1.2rem;
+  color: #f4a261;
+  font-weight: bold;
+}
+
+.details h3 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
